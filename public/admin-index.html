@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        #top{
+            width:100%;
+        }
+        .lf{
+            float: left;
+        }
+        .rt{
+            float: right;
+        }
+        .clear{
+            clear: both;
+        }
+        .header img{
+            width:200px;
+            margin: 10px 40px;
+        }
+        .header{
+            background: #324157;
+        }
+        .header .el-icon-menu{
+            color:#CFCFCF;
+            margin:20px;
+            font-size: 20px;
+            margin-right:100px ;
+        }
+        .header .el-icon-menu:hover{
+            color:#fff;
+            cursor: pointer;
+        }
+        .tac{
+            width:200px;
+        }
+        #right{
+            width:1050px;
+        }
+        #main{
+            width: 100%;
+        }
+        .container{
+            width:1300px;
+            margin:0 auto;
+        }
+        .tableOut{
+            padding:10px;
+        }
+        .add{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="top"></div>
+<div id="main">
+    <div class="container">
+        <div id="left" class="lf animated slideInLeft"></div>
+        <div id="right" class="rt"></div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="modal"></div>
+<script src="javascripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "connect-multiparty": "^2.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.15.5",
+    "formidable": "^1.2.1",
+    "jade": "~1.11.0",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.0-rc1",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4",
+    "underscore": "^1.8.3"
+  }
+}
