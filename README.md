@@ -1,4 +1,4 @@
-### 技术栈基于React + nodejs（express）
+### 技术栈基于React + ElementUi + Redux + Axios + nodejs（express）+MongoDb
 
 * Reactjs 打造网站主页及后天管理系统
 
